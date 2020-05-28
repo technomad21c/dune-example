@@ -1,0 +1,11 @@
+opam-version: "2.0"
+version: "1.0"
+maintainer: "brandon@ecadlabs.com"
+authors: ["Brandon Jeong"]
+homepage: "https://github.com/technomad21c/dune-basic"
+bug-reports: "https://github.com/technomad21c/dune-basic/issues"
+dev-repo: "git+https://github.com/technomad21c/dune-basic.git"
+license: "Apache-2.0"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
